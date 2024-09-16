@@ -1,0 +1,22 @@
+html {
+    background-color: black;
+}
+
+#btn1 {
+    margin-left: 30px;
+    width: 10%;
+}
+
+#btn2 {
+    margin-left: 30px;
+    width: 10%;
+}
+
+#btnsupreme {
+    width: 400px;
+}
+
+#div1 { 
+    margin-top: 400px;
+    text-align: center;
+}
