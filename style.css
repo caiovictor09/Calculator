@@ -1,22 +1,21 @@
 html {
     background-color: black;
-}
-
-#btn1 {
-    margin-left: 30px;
-    width: 10%;
-}
-
-#btn2 {
-    margin-left: 30px;
-    width: 10%;
-}
-
-#btnsupreme {
-    width: 400px;
-}
-
-#div1 { 
-    margin-top: 400px;
+    color: white;
     text-align: center;
 }
+
+#div1 {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+input {
+    margin: 20px;
+    width: 80px; 
+}
+
+img{
+    width: 350px;
+}
+
