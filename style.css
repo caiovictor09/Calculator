@@ -6,16 +6,37 @@ html {
 
 #div1 {
     text-align: left;
-    margin-top: 100px;
-    margin-left: 600px;
+    margin: 100px auto;
+    width: 300px;
 }
 
-input {
-    margin: 20px;
-    width: 80px; 
+input, select {
+    margin: 20px 0;
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 16px;
 }
 
-img{
-    width: 350px;
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color: #45a049; /* Verde mais escuro */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFD700; /* Dourado */
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+}
